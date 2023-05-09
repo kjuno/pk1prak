@@ -63,24 +63,6 @@ public class Menu {
 	}
 	
 	private void audioAufnehmen() {
-		
-		
-		String text = JOptionPane.showInputDialog("Biite iwas eintippen");
-		// 1. Fall : Es wird nix eingetippt und cancel gedrückt-> Nullreferenz haben
-		if(text == null) return;
-		int zahl;
-		try {
-			zahl = Integer.parseInt(text);
-		} catch(NumberFormatException e) {
-			
-		}
-		
-		
-		
-		
-		
-		
-		
 		String titel;
 		
 		if((titel = JOptionPane.showInputDialog(null, "Titel eingeben (String):")) == null) {
